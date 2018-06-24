@@ -1,0 +1,69 @@
+.header{
+	width:100%;
+	background-color: #3d3658;
+}
+b , .jumbotron strong{
+	color:#3d3658;
+}
+.headerTitle{
+    font-family: Alfa Slab One;
+	font-size: 33px;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+.filterDetails{
+    margin-top:10px;
+    padding:20px;
+}
+.parentCard{
+    padding:10px;
+    margin: 10px;
+}
+.grandParent{
+    margin-top: 25px;
+}
+.card-header{
+    font-size:22px;
+    font-weight: 700;
+
+}
+#showUsers{
+    position: absolute;
+    z-index: 100;
+    width:inherit;
+    padding:10px;
+    background-color:white;
+    display: none;
+}
+img.left{
+    width:50px;
+    height:50px;
+}
+.right{
+    display: inline;
+    margin-left:10%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.singleUser{
+    display: block;
+    padding:10px;
+    border-bottom: 1px solid black
+}
+.showNoRes{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color:red;
+}
+#showFlashMessages{
+    display:none;
+    font-size:22px;
+    font-weight: 700;
+    color:orangered;
+    background-color: #3d3658;
+    text-align: center;
+
+}
